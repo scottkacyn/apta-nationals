@@ -15,9 +15,16 @@ class ScheduleViewController: UIViewController, UITableViewDataSource, UITableVi
     var events = []
     var sections = [Int:[[String:String]]]()
     var sortedEvents = []
+    var logo: UIImageView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        // Add the Braxton Hop Eagle logo to the nav bar
+        logo = UIImageView(frame: CGRect(x: self.view.frame.width/2-40, y: 0, width: 80, height: 40))
+        logo.contentMode = UIViewContentMode.ScaleAspectFit
+        logo.image = UIImage(named: "logo.png")
+        navigationController?.navigationBar.addSubview(logo)
         
         var query = PFQuery(className:"Event")
         query.findObjectsInBackgroundWithBlock {
@@ -82,8 +89,16 @@ class ScheduleViewController: UIViewController, UITableViewDataSource, UITableVi
     func tableView(tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
         if section == 0 {
             return "Wednesday, March 4"
-        } else {
+        } else if section == 1 {
             return "Thursday, March 5"
+        } else if section == 2 {
+            return "Friday, March 6"
+        } else if section == 3 {
+            return "Saturday, March 7"
+        } else if section == 4 {
+            return "Sunday, March 8"
+        } else {
+            return "Monday, March 9"
         }
     }
     

@@ -29,6 +29,12 @@
 		6F2C85C41A9A732F000E9E2F /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F2C85C31A9A732F000E9E2F /* SystemConfiguration.framework */; };
 		6F2C85C61A9A7338000E9E2F /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F2C85C51A9A7338000E9E2F /* libz.dylib */; };
 		6F2C85C81A9A7341000E9E2F /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F2C85C71A9A7341000E9E2F /* libsqlite3.dylib */; };
+		6F4EF67A1A9B58E8002D6EA8 /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F4EF6791A9B58E8002D6EA8 /* PhotosViewController.swift */; };
+		6F4EF67C1A9B5DD6002D6EA8 /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F4EF67B1A9B5DD6002D6EA8 /* ParseUI.framework */; };
+		6FD624681A9B7FF800FBF71B /* InfoDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD624671A9B7FF800FBF71B /* InfoDetailViewController.swift */; };
+		6FD6246A1A9B879400FBF71B /* MapListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD624691A9B879400FBF71B /* MapListViewController.swift */; };
+		6FD6246E1A9B8A7B00FBF71B /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FD6246C1A9B8A7B00FBF71B /* Crashlytics.framework */; };
+		6FD6246F1A9B8A7B00FBF71B /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FD6246D1A9B8A7B00FBF71B /* Fabric.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +75,12 @@
 		6F2C85C51A9A7338000E9E2F /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		6F2C85C71A9A7341000E9E2F /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		6F2C85C91A9A7392000E9E2F /* APTA Nationals-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "APTA Nationals-Bridging-Header.h"; sourceTree = "<group>"; };
+		6F4EF6791A9B58E8002D6EA8 /* PhotosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
+		6F4EF67B1A9B5DD6002D6EA8 /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseUI.framework; sourceTree = "<group>"; };
+		6FD624671A9B7FF800FBF71B /* InfoDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoDetailViewController.swift; sourceTree = "<group>"; };
+		6FD624691A9B879400FBF71B /* MapListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapListViewController.swift; sourceTree = "<group>"; };
+		6FD6246C1A9B8A7B00FBF71B /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
+		6FD6246D1A9B8A7B00FBF71B /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +89,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				6F2C85C81A9A7341000E9E2F /* libsqlite3.dylib in Frameworks */,
+				6FD6246E1A9B8A7B00FBF71B /* Crashlytics.framework in Frameworks */,
 				6F2C85C61A9A7338000E9E2F /* libz.dylib in Frameworks */,
+				6FD6246F1A9B8A7B00FBF71B /* Fabric.framework in Frameworks */,
+				6F4EF67C1A9B5DD6002D6EA8 /* ParseUI.framework in Frameworks */,
 				6F2C85C41A9A732F000E9E2F /* SystemConfiguration.framework in Frameworks */,
 				6F2C85C21A9A7327000E9E2F /* StoreKit.framework in Frameworks */,
 				6F2C85C01A9A731E000E9E2F /* Security.framework in Frameworks */,
@@ -128,6 +143,9 @@
 				6F2C858A1A9A6220000E9E2F /* DrawViewController.swift */,
 				6F2C858C1A9A6220000E9E2F /* ScheduleViewController.swift */,
 				6F2C858E1A9A6220000E9E2F /* Main.storyboard */,
+				6FD624691A9B879400FBF71B /* MapListViewController.swift */,
+				6FD624671A9B7FF800FBF71B /* InfoDetailViewController.swift */,
+				6F4EF6791A9B58E8002D6EA8 /* PhotosViewController.swift */,
 				6F2C85AA1A9A68F1000E9E2F /* MapViewController.swift */,
 				6F2C85AC1A9A6900000E9E2F /* InfoViewController.swift */,
 				6F2C85911A9A6220000E9E2F /* Images.xcassets */,
@@ -166,6 +184,9 @@
 		6F2C85AE1A9A7282000E9E2F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				6FD6246C1A9B8A7B00FBF71B /* Crashlytics.framework */,
+				6FD6246D1A9B8A7B00FBF71B /* Fabric.framework */,
+				6F4EF67B1A9B5DD6002D6EA8 /* ParseUI.framework */,
 				6F2C85C71A9A7341000E9E2F /* libsqlite3.dylib */,
 				6F2C85C51A9A7338000E9E2F /* libz.dylib */,
 				6F2C85C31A9A732F000E9E2F /* SystemConfiguration.framework */,
@@ -193,6 +214,7 @@
 				6F2C857F1A9A6220000E9E2F /* Sources */,
 				6F2C85801A9A6220000E9E2F /* Frameworks */,
 				6F2C85811A9A6220000E9E2F /* Resources */,
+				6FD6246B1A9B8A5A00FBF71B /* Run Script */,
 			);
 			buildRules = (
 			);
@@ -232,6 +254,7 @@
 				TargetAttributes = {
 					6F2C85821A9A6220000E9E2F = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = 596QBZ37U8;
 					};
 					6F2C85991A9A6220000E9E2F = {
 						CreatedOnToolsVersion = 6.1.1;
@@ -278,6 +301,23 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6FD6246B1A9B8A5A00FBF71B /* Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "./Fabric.framework/run 56f890c982bb78048931a9462ea49e5bddb6c447 213a3630d1f9a3ba5887f4ff3e946ef65b65b2abf9783fce5a8dac0580c2bdfc";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6F2C857F1A9A6220000E9E2F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -286,8 +326,11 @@
 				6F2C858D1A9A6220000E9E2F /* ScheduleViewController.swift in Sources */,
 				6F2C85891A9A6220000E9E2F /* AppDelegate.swift in Sources */,
 				6F2C858B1A9A6220000E9E2F /* DrawViewController.swift in Sources */,
+				6F4EF67A1A9B58E8002D6EA8 /* PhotosViewController.swift in Sources */,
 				6F2C85AB1A9A68F1000E9E2F /* MapViewController.swift in Sources */,
+				6FD624681A9B7FF800FBF71B /* InfoDetailViewController.swift in Sources */,
 				6F2C85AD1A9A6900000E9E2F /* InfoViewController.swift in Sources */,
+				6FD6246A1A9B879400FBF71B /* MapListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,6 +456,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -420,6 +465,7 @@
 				INFOPLIST_FILE = "APTA Nationals/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "APTA Nationals/APTA Nationals-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -430,6 +476,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -437,6 +485,7 @@
 				INFOPLIST_FILE = "APTA Nationals/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "APTA Nationals/APTA Nationals-Bridging-Header.h";
 			};
 			name = Release;
@@ -494,6 +543,7 @@
 				6F2C85A61A9A6220000E9E2F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6F2C85A71A9A6220000E9E2F /* Build configuration list for PBXNativeTarget "APTA NationalsTests" */ = {
 			isa = XCConfigurationList;
@@ -502,6 +552,7 @@
 				6F2C85A91A9A6220000E9E2F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
